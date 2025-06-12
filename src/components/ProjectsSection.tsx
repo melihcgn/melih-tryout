@@ -71,7 +71,7 @@ export default function ProjectsSection() {
         <p className="text-muted-foreground mt-2">Some of the notable projects I&apos;ve worked on</p>
       </div>
 
-      <div className="gap-10 grid grid-cols-2">
+      <div className="gap-10 grid grid-cols-1 md:grid-cols-2">
         {projects.map((proj, index) => (
           <div
             key={index}

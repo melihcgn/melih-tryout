@@ -28,7 +28,7 @@ export default function Navbar() {
         scrolled ? "shadow-md" : ""
       }`}
     >
-      <section className="navigation-buttons flex flex-row gap-8 text-sm sm:text-base">
+      <section className="navigation-buttons flex flex-row gap-8 text-sm sm:text-base overflow-auto mr-2">
         <a href="#about" className="hover:underline">About</a>
         <a href="#skills" className="hover:underline">Skills</a>
         <a href="#projects" className="hover:underline">Projects</a>

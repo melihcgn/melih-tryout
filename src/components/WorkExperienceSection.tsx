@@ -91,7 +91,7 @@ export default function WorkExperienceSection() {
         <h2 className="text-3xl font-bold">Work Experience</h2>
         <p className="text-muted-foreground mt-2">Works I&apos;ve been involved in</p>
       </div>
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {experiences.map((exp, idx) => (
           <div key={idx} className="bg-zinc-100 dark:bg-zinc-800 rounded-xl shadow-md p-6 flex flex-col sm:flex-row gap-4">
             <div className="flex-shrink-0">
